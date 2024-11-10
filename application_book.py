@@ -18,7 +18,7 @@ db.create_all()
 
 @app.route('/')
 def index():
-    return 'Hello there!'
+    return 'Library Room!'
 
 @app.route('/books')
 def get_books():
